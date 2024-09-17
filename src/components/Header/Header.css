@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+#logo{
+  margin: 10px;
+  color:  #FF6060;
+  margin-left: 80px
+  ;
+}
+.link a{
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+.link{
+  margin-top: 25px;
+
+}

@@ -1,0 +1,11 @@
+.banner{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    background: url('../../data/banner.svg');
+    background-repeat: no-repeat;
+    color: white;
+    height: 223px;
+    font-family: 'Montserrat';
+    margin-bottom: 15px;
+}

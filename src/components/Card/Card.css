@@ -1,0 +1,25 @@
+img{
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.imgTitle{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    text-align: center;
+    color: white;
+    size: 18px;
+    width: 50%;
+
+}
+

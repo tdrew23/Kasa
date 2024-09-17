@@ -1,0 +1,9 @@
+.cards-section{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+    background-color: #F6F6F6;
+    width: 95%;
+    margin: auto;
+    border-radius: 25px;
+}
