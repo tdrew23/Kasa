@@ -4,8 +4,41 @@
     margin: auto;
     background: url('../../data/banner.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
     height: 223px;
     font-family: 'Montserrat';
     margin-bottom: 15px;
+
+}
+
+.mobile-title{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .banner{
+        text-align: center;
+        width: 85%;
+        margin: auto;
+        background: url('../../data/banner-mobile.svg') ;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+        margin-top: 10px;
+
+    }
+
+    .mobile-title{
+        display: block;
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: start;  
+        margin-left: 25px;   
+        padding-top: 20px;  
+        margin-bottom: 0; 
+    }
 }

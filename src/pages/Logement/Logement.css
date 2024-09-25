@@ -1,5 +1,4 @@
 .logement-container{
-    border: solid black;
     width: 90%;
     margin: auto;
     font-family: 'Montserrat';
@@ -12,7 +11,11 @@
 
 h1{
     color: #FF6060;
-    ;
+    font-size: 36px;
+}
+.location{
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .tagsContainer {
@@ -23,12 +26,61 @@ h1{
   }
 
 .profil{
-    border: solid red;
     display: flex;
     gap: 5px;
+}
+
+.profil p{
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 50%;
 }
 .profil img{
     width: 74px;
     height: 74px;
     border-radius: 50%;
 }
+
+.collapse{
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .logement-container{
+        width: 90%;
+        margin: auto;
+        font-family: 'Montserrat';
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos-perso{
+        display: flex;
+        flex-direction: row-reverse !important;
+        justify-content: space-between;
+    }
+
+    .collapse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90% !important;
+    }
+
+    .collapse .propos{
+        width: 100% !important;
+    }
+
+    .numerotation{
+        display: none;
+    }
+  }

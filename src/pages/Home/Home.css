@@ -7,3 +7,18 @@
     margin: auto;
     border-radius: 25px;
 }
+
+
+
+@media (max-width: 768px) {
+    .cards-section{
+    display: flex ;
+    flex-direction: column;
+    }
+
+
+        .card:nth-child(n+4) {
+          display: none; /* Masquer les cartes à partir de la quatrième */
+        }
+      
+}

@@ -10,6 +10,7 @@ img{
     position: relative;
     width: 75%;
     margin: auto;
+    cursor: pointer;
 }
 
 .imgTitle{
@@ -23,3 +24,14 @@ img{
 
 }
 
+
+@media (max-width: 768px) {
+    .cards-section{
+    display: flex ;
+    flex-direction: column;
+    background-color: white !important;
+    margin-right: 5% !important;
+    }
+
+      
+}

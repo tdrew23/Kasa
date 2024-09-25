@@ -1,0 +1,45 @@
+.carrousselImg{
+    position: relative;
+}
+
+.prevBtn{
+    position: absolute;
+    left: 80px;
+    top: 250px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.nextBtn{
+    position: absolute;
+    right: 80px;
+    top: 250px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    .prevBtn {
+       left: 40px !important;
+       border: solid black;
+       height: 19px;
+       object-fit: fill !important;
+    }
+
+    .nextBtn{
+        right: 40px;
+       
+
+    }
+
+     /* Assure que les images du carrousel sont fluides */
+  .carrousselImg {
+    width: 100%; 
+    height: auto;
+  }
+}

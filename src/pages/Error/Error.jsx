@@ -1,9 +1,14 @@
+import './Error.css'
+
 function Error(){
-    return(
+    return(<>
         
-            <div>
-            Error
+            <div className='error'>
+            <h1>404</h1>
+            <h2>Oups! La page que vous demandez n'existe pas.</h2>
             </div>
+
+            </>
     
     )
 }

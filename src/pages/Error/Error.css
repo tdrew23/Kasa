@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    color: #FF6060;
+    ;
+
+}
+
+.error h1{
+    font-weight: 700;
+    font-size: 190px;
+}

@@ -1,0 +1,48 @@
+/* Applique Flexbox à l'ensemble du layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+/* Assure que le conteneur root prend toute la hauteur */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+.main-content {
+  flex: 1; /* Prend l'espace restant */
+}
+
+
+  @media (max-width: 768px) {
+ 
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+
+    .link{
+      margin-top: 35px;
+    }
+
+    .link a{
+      font-size: 16px;
+
+    }
+
+    #logo{
+      margin: 10px;
+    }
+
+  }
+  

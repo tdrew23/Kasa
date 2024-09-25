@@ -15,7 +15,7 @@ function Header(){
 </Link>
             <div className="link">
                 <Link to='/'>Acceuil</Link>
-                <Link to='/survey'>A propos</Link>
+                <Link to='/propos'>A propos</Link>
             </div>
             </nav>
         </>

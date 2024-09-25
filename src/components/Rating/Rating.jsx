@@ -1,12 +1,11 @@
 function Rating({ rating }) {
-    const maxStars = 5; // Nombre maximum d'étoiles
+    const maxStars = 5;
   
-    // Convertir la note en nombre pour être sûr que c'est un entier
     const ratingValue = parseInt(rating);
   
-    // Créer un tableau avec des étoiles pleines et des étoiles vides
+    //  tableau avec des étoiles pleines et des étoiles vides
     const stars = Array.from({ length: maxStars }, (v, i) => {
-      return i < ratingValue ? '★' : '☆'; // '★' pour une étoile pleine, '☆' pour une étoile vide
+      return i < ratingValue ? '★' : '☆'; // 
     });
   
     return (
@@ -27,8 +26,8 @@ function Rating({ rating }) {
       gap: '5px',
     },
     star: {
-      fontSize: '24px', // Taille des étoiles
-      color: '#FFD700', // Couleur des étoiles (jaune)
+      fontSize: '24px', 
+      color: '#FF6060',
     },
   };
   

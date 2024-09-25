@@ -23,7 +23,7 @@ function Logement(){
       <article>
       
       <h1>{logement.title}</h1>
-      <p>{logement.location}</p>
+      <p className="location">{logement.location}</p>
 
        {/* Section pour afficher les tags */}
        <div className="tagsContainer">
@@ -35,7 +35,7 @@ function Logement(){
       </div>
       </article>
 
-    <article>
+    <article className="infos-perso">
 
            {/* profil */}
     <div className="profil">
@@ -50,9 +50,11 @@ function Logement(){
       </article>
 
     </div>
+
+    <div className="collapse">
     
       {/* Collapse pour la description */}
-      <Collapse title="Description">
+      <Collapse title="Description" >
         <p>{logement.description}</p>
       </Collapse>
 
@@ -64,6 +66,8 @@ function Logement(){
           ))}
         </ul>
       </Collapse>
+    
+      </div>
 
       </div>
     )
@@ -73,10 +77,11 @@ function Logement(){
 const styles = {
 
   tag: {
-    backgroundColor: '#F7F7F7',
+    backgroundColor: ' #FF6060',
     padding: '5px 10px',
+    marginRight :'10px',
     borderRadius: '15px',
-    color: '#333',
+    color: 'white',
     fontSize: '14px',
     border: '1px solid #ddd',
   },

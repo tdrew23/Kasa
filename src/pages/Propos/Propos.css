@@ -1,0 +1,29 @@
+/* Propos-container styles */
+.propos-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1; /* Prend l'espace disponible */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .propos-container .propos {
+   width: 90% !important;
+   font-family: 'Montserrat';
+  }
+  
+
+  .img-propos{
+    background: url('../../data/a-propos.svg');
+    height: 200px;
+    width: 85%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+
+  }
