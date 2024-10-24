@@ -2,6 +2,7 @@
     position: relative;
 }
 
+
 .prevBtn{
     position: absolute;
     left: 80px;
@@ -21,12 +22,19 @@
     cursor: pointer;
 }
 
+.numerotation{
+position: absolute;
+bottom: 250px;
+left:700px;
+color: white;
+font-size: larger;
+}
+
 
 @media (max-width: 768px) {
 
     .prevBtn {
        left: 40px !important;
-       border: solid black;
        height: 19px;
        object-fit: fill !important;
     }

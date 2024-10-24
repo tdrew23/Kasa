@@ -11,8 +11,10 @@
   }
 
   .propos-container .propos {
-   width: 90% !important;
+   width: 80% !important;
    font-family: 'Montserrat';
+   padding: 20px;
+   border-radius: 5px;
   }
   
 

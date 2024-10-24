@@ -11,6 +11,7 @@ img{
     width: 75%;
     margin: auto;
     cursor: pointer;
+    padding-top: 30px;
 }
 
 .imgTitle{

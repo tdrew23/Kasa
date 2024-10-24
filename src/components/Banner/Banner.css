@@ -1,11 +1,13 @@
 .banner{
     text-align: center;
-    width: 85%;
+    width: 90%;
+    border-radius: 25px;
     margin: auto;
     background: url('../../data/banner.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: local;
     color: white;
     height: 223px;
     font-family: 'Montserrat';
