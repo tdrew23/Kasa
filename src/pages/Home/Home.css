@@ -13,7 +13,10 @@
 @media (max-width: 768px) {
     .cards-section{
     display: flex ;
-    flex-direction: column;
+    flex-direction: column;    
+    background-color: white !important;
+
+  
     }
 
 

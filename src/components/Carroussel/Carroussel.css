@@ -35,14 +35,23 @@ font-size: larger;
 
     .prevBtn {
        left: 40px !important;
-       height: 19px;
        object-fit: fill !important;
+       font-size: small;
+       
     }
 
     .nextBtn{
         right: 40px;
        
 
+     }
+
+    /* width="48" height="80"  */
+
+    button svg{
+        width: 24px;
+        height: 40px;
+        margin-top: 20px;
     }
 
      /* Assure que les images du carrousel sont fluides */

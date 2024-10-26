@@ -24,6 +24,7 @@
     .banner{
         text-align: center;
         width: 85%;
+        border-radius: 1px;
         margin: auto;
         background: url('../../data/banner-mobile.svg') ;
         background-repeat: no-repeat;
@@ -37,7 +38,7 @@
         display: block;
         color: white;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 30px;
         text-align: start;  
         margin-left: 25px;   
         padding-top: 20px;  
