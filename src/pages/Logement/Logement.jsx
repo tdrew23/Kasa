@@ -4,6 +4,7 @@ import Carrousel from "../../components/Carroussel/Carroussel";
 import Rating from "../../components/Rating/Rating";
 import Collapse from "../../components/Collapse/Collapse";
 import './Logement.css'
+import Error from "../Error/Error"
 
 function Logement(){
 
@@ -11,7 +12,8 @@ function Logement(){
     const logement = listeLogement.find((item) => item.id === id);
 
     if (!logement) {
-        // return <Error/>;
+       return <Error />
+        
       }
     return(
 
