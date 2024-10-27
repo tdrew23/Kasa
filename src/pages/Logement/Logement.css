@@ -28,6 +28,7 @@ h1{
 .profil{
     display: flex;
     gap: 5px;
+    justify-content: flex-end;
 }
 
 .profil p{
@@ -46,11 +47,17 @@ h1{
 .infos-perso{
     margin-top: 15px;
 }
+.rating{
+    padding-left: 55px;
+    font-size: large;
+}
 .collapse{
 display: flex;
 justify-content: space-between;
 margin-top: 15px;
+padding-right: 5px;
 }
+
 
 @media (max-width: 768px) {
     .logement-container{

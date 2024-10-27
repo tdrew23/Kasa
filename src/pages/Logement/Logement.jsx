@@ -43,7 +43,7 @@ function Logement(){
     <img src={logement.host.picture}></img>
     </div>
 
-     <div style={{ marginTop: '20px' }}>
+     <div className="rating" style={{ marginTop: '20px' }}>
         <Rating rating={logement.rating} />
       </div>
 
