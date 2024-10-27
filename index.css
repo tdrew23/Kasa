@@ -16,6 +16,10 @@ body {
   min-height: 100vh; /* Prend toute la hauteur de la fenêtre */
 }
 
+a{
+  text-decoration: none;
+}
+
 .main-content {
   flex: 1; /* Prend l'espace restant */
 }

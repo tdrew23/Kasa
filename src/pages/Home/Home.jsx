@@ -28,7 +28,7 @@ function Home() {
   });
 
   // Filtrer le nombre de cartes en fonction de l'état mobile ou desktop
-  const logementsAffiches = isMobile ? listeLogement.slice(0, 3) : listeLogement.slice(0, 6);
+  const logementsAffiches = isMobile ? listeLogement : listeLogement;
   
 
 

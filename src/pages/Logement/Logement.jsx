@@ -11,7 +11,7 @@ function Logement(){
     const logement = listeLogement.find((item) => item.id === id);
 
     if (!logement) {
-        return <h2>Logement non trouvé</h2>;
+        // return <Error/>;
       }
     return(
 
